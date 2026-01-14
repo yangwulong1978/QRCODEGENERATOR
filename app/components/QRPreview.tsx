@@ -42,7 +42,7 @@ export default function QRPreview({ dataUrl, jsonString, companyName }: QRPrevie
 
         <div className="w-full">
           <h3 className="text-sm font-semibold text-gray-700 mb-2">Encoded Data:</h3>
-          <pre className="bg-gray-50 p-4 rounded-lg text-xs overflow-x-auto border border-gray-200">
+          <pre className="bg-gray-50 p-4 rounded-lg text-xs overflow-x-auto border border-gray-200 text-gray-900 font-medium">
             {JSON.stringify(JSON.parse(jsonString), null, 2)}
           </pre>
         </div>
